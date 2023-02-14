@@ -1,0 +1,95 @@
+@keyframes letteranimation{
+    0% {letter-spacing: normal;}
+    25% {letter-spacing: 2px;}
+    50% {letter-spacing: 1px;}
+    75% {letter-spacing: 2px;}
+    100% {letter-spacing: normal;}
+}
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffa4a4;
+}
+
+nav{
+    background-color: #ff7a7a;
+    width: 100%;
+}
+
+nav p{
+    text-align: center;
+    font-family: Satisfy, cursive;
+    font-weight: 900;
+    color: white;
+    animation: letteranimation 3s linear infinite;
+}
+
+.valentine-border{
+    width: 350px;
+    height: 150px;
+    background-color: #ff7a7a;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #e65f5f ;
+    border-radius: 25px 0 25px 0;
+    border-style:double;
+}
+
+.valentine-border .valentine{
+    text-align: center;
+    color: white;
+    font-family: Satisfy, cursive;
+    font-weight: 900;
+    letter-spacing: 2px;
+    display: none;
+}
+
+.valentine-border .made-by{
+    color: white;
+    font-family: Satisfy, cursive;
+    text-align: center;
+    display: none;
+    font-weight: 900;
+}
+
+ .valentine-border .click{
+    color: #e65f5f;
+    font-family: Satisfy, cursive;
+    text-align: center;
+    font-size: 40px;
+ }
+
+ .valentine-border:active .valentine, .valentine-border:active .made-by, .valentine-border:hover .valentine, .valentine-border:hover .made-by{
+    display: block;
+    font-size: 25px;
+ }
+
+ .valentine-border:active .click, .valentine-border:hover .click{
+    display: none;
+ }
+
+ .rose-glas{
+    background-color: #ff7a7a;
+    opacity: .8;
+    width: 120px;
+    height: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border: 5px solid #e65f5f;
+    border-radius: 200px 200px 10px 10px;
+    border-style:outset;
+ }
+
+ .rose-glas p{
+    color: white;
+    text-align: center;
+    font-family: Satisfy, cursive;
+ }
+
+
+
